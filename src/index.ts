@@ -17,6 +17,8 @@ storage.unibot.core.On("tick", () => {
       storage.unibot.core.Log("BetterStat'er initialized!");
     }
 
-    staterController.evaluateStatRules(player);
+    storage.unibot.core.LimitActionFrequency("evaluateStatRules", 1000, () => {
+      staterController.evaluateStatRules(player);
+    });
   }
 });
