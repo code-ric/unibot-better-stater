@@ -1,6 +1,6 @@
 {
   "name": "better-stater",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A script to help you with automated stat skilling for Unibot.",
   "main": "src/index.ts",
   "scripts": {
