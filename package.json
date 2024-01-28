@@ -1,0 +1,36 @@
+{
+  "name": "better-stater",
+  "version": "0.1.0",
+  "description": "A script to help you with automated stat skilling for Unibot.",
+  "main": "src/index.ts",
+  "scripts": {
+    "api-update": "npm-check-updates -u unibot-api && npm install",
+    "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript"
+  },
+  "author": "code-ric",
+  "keywords": [
+    "unibot",
+    "flyff",
+    "flyff universe",
+    "script",
+    "bot",
+    "browser",
+    "game"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-ric/unibot-better-stater"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.9.6",
+    "rollup-plugin-ignore": "^1.0.10",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3",
+    "unibot-api": "^2.0.0"
+  }
+}

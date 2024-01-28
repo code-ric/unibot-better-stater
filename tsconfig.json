@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "lib": ["ES2023"],
+    "target": "es6",
+    "moduleResolution": "Node",
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "outDir": "./dist",
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*.ts", "rollup.config.ts"]
+}
