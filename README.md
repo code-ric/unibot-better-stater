@@ -4,7 +4,9 @@ This repository is the code base of the BetterStat'er script for Unibot. It offe
 
 ## Usage (for players)
 
-//TODO
+Head over to [Releases](https://github.com/code-ric/unibot-better-stater/releases) to find the newest script version to download.
+
+Then put the downloaded script into the `%appdata%/unibot-pro/userscripts` folder.
 
 ## Usage (for developers)
 

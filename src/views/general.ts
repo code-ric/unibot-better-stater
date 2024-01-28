@@ -33,7 +33,7 @@ class GeneralView {
 
     const versionBadge = this.scriptConfig.AddBadge({
       label: "Script Version",
-      defaultValue: "v0.1.0",
+      defaultValue: "v0.1.1",
       _parent: section,
     });
 
