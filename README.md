@@ -15,7 +15,7 @@ Then put the downloaded script into the `%appdata%/unibot-pro/userscripts` folde
 $ npm i
 
 // check and update unibot-api
-npm run api-update
+$ npm run api-update
 
 // run this command to bundle your project to a single .js file
 $ npm run build
